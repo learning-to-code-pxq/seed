@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tools.seed.mapper.SysFileMapper">
+
+    <resultMap id="BaseResultMap" type="com.tools.seed.entity.SysFile">
+            <id property="id" column="id" />
+            <result property="originalName" column="original_name" />
+            <result property="storedName" column="stored_name" />
+            <result property="filePath" column="file_path" />
+            <result property="fileSize" column="file_size" />
+            <result property="fileType" column="file_type" />
+            <result property="extension" column="extension" />
+            <result property="uploadUserId" column="upload_user_id" />
+            <result property="createTime" column="create_time" />
+            <result property="updateTime" column="update_time" />
+            <result property="deleted" column="deleted" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,original_name,stored_name,file_path,file_size,file_type,
+        extension,upload_user_id,create_time,update_time,deleted
+    </sql>
+</mapper>
