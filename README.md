@@ -129,15 +129,6 @@ db/migration/
 └── V3__add_xxx_field.sql        # 以后改字段
 ```
 
-### 待完善
-
-- [ ] 分页查询示例
-- [ ] API 版本前缀（/api/v1）
-- [ ] @RequiresRole 角色级鉴权
-- [ ] 数据权限（按部门过滤）
-- [ ] MapStruct DTO 映射
-- [ ] 单元测试补充
-
 ### License
 
 [MIT](LICENSE)
